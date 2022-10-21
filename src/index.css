@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.hero-banner {
+  position: absolute;
+  top: 0;
+  right: 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bodyPart-card:hover {
+  transition: all 0.4s ease;
+  transform: scale(1.1);
+}
+
+.left-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+}
+
+.right-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -5%;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.exercise-card {
+  text-decoration: none;
+  color: black;
+  max-width: 425px;
+}
+.exercise-card:hover {
+  transition: all 0.4s ease;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1400px) {
+  .hero-banner {
+    display: none;
+  }
+
+  .logo {
+    margin: 0 !important;
+  }
 }
