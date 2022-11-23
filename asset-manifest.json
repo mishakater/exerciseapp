@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/exerciseapp/static/css/main.348a2108.css",
+    "main.js": "/exerciseapp/static/js/main.17543ad2.js",
+    "static/js/787.0a4597e3.chunk.js": "/exerciseapp/static/js/787.0a4597e3.chunk.js",
+    "static/media/banner.jpg": "/exerciseapp/static/media/banner.204c95f7631ad0c6f7da.jpg",
+    "static/media/Logo.png": "/exerciseapp/static/media/Logo.dbbe168adc09b1ddd26f.png",
+    "static/media/gym.png": "/exerciseapp/static/media/gym.6e701417c428e2fbc267.png",
+    "index.html": "/exerciseapp/index.html",
+    "main.348a2108.css.map": "/exerciseapp/static/css/main.348a2108.css.map",
+    "main.17543ad2.js.map": "/exerciseapp/static/js/main.17543ad2.js.map",
+    "787.0a4597e3.chunk.js.map": "/exerciseapp/static/js/787.0a4597e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.348a2108.css",
+    "static/js/main.17543ad2.js"
+  ]
+}
